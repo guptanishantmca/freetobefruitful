@@ -10,4 +10,4 @@
   <div class="text-gray-800">
     <?php the_excerpt(); ?>
   </div>
-</article>
+</article>  

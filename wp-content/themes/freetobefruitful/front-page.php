@@ -1,6 +1,7 @@
 <?php get_header(); ?>
-
-<section class="bg-blue-50 py-20 text-center">
+ 
+ 
+<section class="bg-red-50 py-20 text-center">
   <div class="container mx-auto px-4">
     <h1 class="text-5xl font-bold text-blue-800 mb-4">Helping Christian Women Thrive in Life</h1>
     <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
@@ -8,7 +9,7 @@
     </p>
     <a href="/blog" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">Read the Blog</a>
   </div>
-</section>
+</section>  
 
 <section class="py-16">
   <div class="container mx-auto px-4">
