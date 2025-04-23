@@ -1,4 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "tailwindcss";
+@import "tailwindcss"; 
+body {
+    font-family: 'Oswald', sans-serif;
+  }
+  
