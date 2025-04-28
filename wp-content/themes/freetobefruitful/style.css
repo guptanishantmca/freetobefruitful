@@ -162,7 +162,9 @@ header, nav, section, article, aside, footer {
 	#header .navigation .select_nav {margin: 0 20px;width: 300px!important;float:right;}
 	
 #header .nav {float: right;  }
-#header .nav li { float: left; margin-left: 12px; position: relative; }
+#header .nav li { float: left; 
+	/* margin-left: 12px;  */
+	position: relative; }
 #header .nav li a {  }
 
 	/*secondary*/
@@ -172,7 +174,7 @@ header, nav, section, article, aside, footer {
 	#header .nav ul li a {  }
 	#header .nav ul li ul{display: none!important; left: 180px;top: 0 !important}
 	#header .nav ul li:hover ul{ display: block!important; z-index: 10;top: 24px;}
-	#header .nav a.nav-path-selected:first-child,#header .nav a.nav-selected{padding: 3px 8px;}
+	/* #header .nav a.nav-path-selected:first-child,#header .nav a.nav-selected{padding: 3px 8px;} */
 	#header .nav .has-nav span{font-size: 6px;margin-top: 7px;margin-left: 4px;}
 	
 	#getdirections{width: 250px!important;}
@@ -575,7 +577,7 @@ img {
   .main-nav .nav {
 	list-style: none;
 	display: flex;
-	gap: 20px;
+	gap: 5px;
 	margin: 0;
 	padding: 0;
   }
@@ -583,14 +585,14 @@ img {
   .main-nav .nav li a {
 	text-decoration: none;
 	color: #333;
-	font-weight: 500;
-	padding: 5px 10px;
+	/* font-weight: 500; */
+	padding: 5px 10px; 
   }
   
   .main-nav .nav li a:hover,
-  .main-nav .nav .nav-selected a {
-	color: #0056b3;
-	border-bottom: 2px solid #0056b3;
+  .main-nav .nav  a.nav-selected {
+	background-color:#123e80;  
+  color:white!important;
   }
   
   /* Responsive behavior */
