@@ -56,12 +56,14 @@
 
      
 <div id="header">
-  <div class="header-container">
+  <div class="row header-container">
+  <div class="fourcol">
     <!-- Logo -->
     <div class="logo">
       <p><span>Freedom Through Faith Ministries</span></p>
     </div>
-
+    </div>
+    <div class="sevencol ">
     <!-- Burger Button -->
     <button class="burger" id="burger" aria-label="Toggle Menu">
       ☰
@@ -87,7 +89,8 @@ wp_nav_menu([
         <li><a href="/?page_id=28">Sponsor an Orphan</a></li>
       </ul> -->
     </nav>
-  </div>
+    </div>
+    </div>
 </div>
 <?php if (is_active_sidebar('sub_header')) : ?>
         <div id="search">

@@ -577,7 +577,7 @@ img {
   .main-nav .nav {
 	list-style: none;
 	display: flex;
-	gap: 5px;
+	/* gap: 5px; */
 	margin: 0;
 	padding: 0;
   }
@@ -589,10 +589,15 @@ img {
 	padding: 5px 10px; 
   }
   
-  .main-nav .nav li a:hover,
+ 
   .main-nav .nav  a.nav-selected {
 	background-color:#123e80;  
   color:white!important;
+  }  
+  .main-nav .nav li a:hover
+   {
+ 
+  color:#073b69!important;
   }
   
   /* Responsive behavior */
