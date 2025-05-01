@@ -60,11 +60,18 @@ add_action('widgets_init', 'freetobefruitful_widgets_init');
 
 function freetobefruitful_register_widgets() {
   register_sidebar([
-      'name'          => 'Sub Header',
-      'id'            => 'sub_header',
-      'before_widget' => '',
-      'after_widget'  => '',
-  ]);
+    'name'          => 'Sub Header',
+    'id'            => 'sub_header',
+    'before_widget' => '',
+    'after_widget'  => '',
+]);
+
+register_sidebar([
+  'name'          => 'Header',
+  'id'            => 'header',
+  'before_widget' => '',
+  'after_widget'  => '',
+]);
 }
 add_action('widgets_init', 'freetobefruitful_register_widgets');
 

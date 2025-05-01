@@ -4,6 +4,8 @@
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="profile" href="https://gmpg.org/xfn/11">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
   <?php wp_head(); ?>
   <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -57,13 +59,13 @@
      
 <div id="header">
   <div class="row header-container">
-  <div class="fourcol">
+  <div class="col-sm-12  col-md-4    mb-3">
     <!-- Logo -->
     <div class="logo">
       <p><span>Freedom Through Faith Ministries</span></p>
     </div>
     </div>
-    <div class="sevencol ">
+    <div class="col-sm-12 col-md-8 px-3 ">
     <!-- Burger Button -->
     <button class="burger" id="burger" aria-label="Toggle Menu">
       ☰
