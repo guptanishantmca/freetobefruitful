@@ -65,7 +65,7 @@
       <p><span>Freedom Through Faith Ministries</span></p>
     </div>
     </div>
-    <div class="col-sm-12 col-md-8 px-3 ">
+    <div class="col-sm-12 col-md-8 p-0 m-0 ">
     <!-- Burger Button -->
     <button class="burger" id="burger" aria-label="Toggle Menu">
       ☰

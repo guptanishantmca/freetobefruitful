@@ -2,7 +2,7 @@
 
     <div class="row ">
 
-        <div class="fivecol">
+        <div class="col-sm-12  col-md-5">
         <?php if (is_active_sidebar('footer_col_1')) : ?>
             <?php dynamic_sidebar('footer_col_1'); ?>
             <?php endif; ?>
@@ -10,7 +10,7 @@
 
             <p><span><img style="padding-right: 15px; padding-bottom: 15px; float: left;" src="/files/9213/9765/2158/jack-debbie-gaudin.png" alt="jack-debbie-gaudin.png" width="140" height="121">They met late, married late, had children late and answered God’s call on their life late.&nbsp; The good news is that it’s never too late to do what’s right!&nbsp; What has God called you to do?&nbsp; Matthew 21:28-31</span></p> -->
         </div>
-        <div class="fourcol">
+        <div class="col-sm-12  col-md-4">
         <?php if (is_active_sidebar('footer_col_2')) : ?>
             <?php dynamic_sidebar('footer_col_2'); ?>
             <?php endif; ?>
@@ -23,7 +23,7 @@
             <p>Email: <a href="mailto:jack.gaudin@me.com">jack.gaudin@me.com</a></p>
             <p>Cell: (719) 429-5522</p> -->
         </div>
-        <div class="threecol last">
+        <div class="col-sm-12  col-md-3 last">
         <?php if (is_active_sidebar('footer_col_3')) : ?>
             <?php dynamic_sidebar('footer_col_3'); ?>
             <?php endif; ?>

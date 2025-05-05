@@ -603,9 +603,9 @@ img {
   /* Responsive behavior */
   @media (max-width: 768px) {
 	.logo{
-		width: 85%;
+		/* width: 85%;
 		
-		padding: 0 15px;
+		padding: 0 15px; */
 	}
 	#search{
 		min-height: 220px;
@@ -634,8 +634,8 @@ img {
 		position: absolute;
 		z-index: 2;
 		background:	white;
-		padding:10px;
-		width: 100%;
+		/* padding:10px; */
+		width: 50%;
 	}
   
 	.main-nav .nav li a {
@@ -647,5 +647,9 @@ img {
   @media (max-width: 600px) {
 	.logo span{
 		font-size: 1.5em;
+	}
+	.main-nav .nav {
+	 
+		width: 100%;
 	}
 }
